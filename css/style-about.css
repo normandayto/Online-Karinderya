@@ -39,5 +39,29 @@ body {
   color: #545454;
   line-height: 30px;
   text-align: justify;
+}
 
+@media screen and (max-width:1200px) {
+  .about-container {
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .about-container {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+  .about-container{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .about-container {
+    padding: 0px;
+  }
+  .about-container {
+    padding: 60px;
+  }
 }
